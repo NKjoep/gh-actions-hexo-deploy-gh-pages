@@ -12,11 +12,9 @@ echo '=================== Update all submodules ==================='
 git submodule init
 git submodule update --recursive --remote
 echo '=================== Install dependencies ==================='
-yarn
+npm ci
 echo '=================== Build site ==================='
-cp source/theme_config.yml themes/icarus/_config.yml
-hexo -h
-hexo generate --silent
+npm run build
 echo '=================== Publish to GitHub Pages ==================='
 cd public
 remote_repo="git@github.com:${GITHUB_DEPLOY_REPOSITORY}.git" && \

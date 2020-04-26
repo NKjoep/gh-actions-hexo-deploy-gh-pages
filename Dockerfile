@@ -5,12 +5,12 @@ LABEL "com.github.actions.description"="Builds and deploys the project to GitHub
 LABEL "com.github.actions.icon"="home"
 LABEL "com.github.actions.color"="red"
 
-LABEL "repository"="https://github.com/khanhicetea/gh-actions-hexo-deploy-gh-pages"
-LABEL "homepage"="https://github.com/khanhicetea/gh-actions-hexo-deploy-gh-pages"
-LABEL "maintainer"="KhanhIceTea <khanhicetea@gmail.com>"
+LABEL "repository"="https://github.com/NKjoep/gh-actions-hexo-deploy-gh-pages"
+LABEL "homepage"="https://github.com/NKjoep/gh-actions-hexo-deploy-gh-pages"
+LABEL "maintainer"="Andrea D. <nkjoep@gmail.com>"
 
 LABEL "Name"="Hexo for GitHub Pages"
-LABEL "Version"="0.1.0"
+LABEL "Version"="0.1.2"
 
 ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
